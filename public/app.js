@@ -28,7 +28,7 @@ async function searchCountry() {
         
         if (!response.ok) {
             if (response.status === 404) {
-                throw new Error('Nie znaleziono kraju z podaną stolicą');
+                throw new Error('Nie znaleziono podanej stolicy');
             }
             throw new Error('Błąd podczas pobierania danych');
         }

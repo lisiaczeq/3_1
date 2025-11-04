@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #2563eb;
+    background: #4782ff;
     min-height: 100vh;
     padding: 20px;
 }
@@ -51,13 +51,13 @@ h1 {
 }
 
 #capitalInput:focus {
-    border-color: #2563eb;
+    border-color: #4782ff;
 }
 
 #searchBtn {
     padding: 12px 30px;
     font-size: 16px;
-    background: #2563eb;
+    background: #4782ff;
     color: white;
     border: none;
     border-radius: 8px;
@@ -78,7 +78,7 @@ h1 {
 .loading {
     text-align: center;
     padding: 30px;
-    color: #2563eb;
+    color: #4782ff;
     font-size: 1.2em;
     font-weight: 500;
 }
@@ -113,7 +113,7 @@ table {
 }
 
 thead {
-    background: #2563eb;
+    background: #4782ff;
     color: white;
 }
 
